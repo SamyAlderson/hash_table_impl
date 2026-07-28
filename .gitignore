@@ -1,19 +1,45 @@
-# Ignore build artifacts
-*.class
-*.pyc
-*.log
-target/
+# .gitignore
 
-# Ignore IDE files
+# ignore node_modules folder
+node_modules/
+
+# ignore .env file
+.env
+
+# ignore build folder
+build/
+
+# ignore coverage folder
+coverage/
+
+# ignore IDE files
 .idea/
 .vscode/
 
-# Ignore node modules
-node_modules/
+# ignore other IDE files
+*.iml
+*.pyc
+*.class
 
-# Ignore docker containers
-docker-compose.log
-docker-compose.pid
+# ignore logs
+logs/
 
-# Ignore local database
-db.sqlite3
+# ignore cache
+.cache/
+
+# ignore other stuff
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ignore IDE config files
+*.sublime-project
+*.sublime-workspace
+*.vscode/settings.json
+*.vscode/launch.json
+
+# ignore other IDE config files
+*.idea/workspace.xml
+*.idea/.gitignore
+*.idea/.vscode/
